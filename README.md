@@ -19,25 +19,25 @@ This project is part of the requirement for Udacity Data Scientist Nanodegree Pr
 ## File Descriptions
 This project contains three folders:
 1. Data
-  * messages.csv - A csv file that holds the messages data set.
-  * categories.csv - A csv file that holds the categories data set.
-  * process_data.py - An ETL pipeline that loads the messages and categories datasets, merges the two datasets, cleans the data, and stores it in a SQLite database.
-  * DisasterResponse.db - A database that contains the output of the ETL pipeline.
+    * messages.csv - A csv file that holds the messages data set.
+    * categories.csv - A csv file that holds the categories data set.
+    * process_data.py - An ETL pipeline that loads the messages and categories datasets, merges the two datasets, cleans the data, and stores it in a SQLite database.
+    * DisasterResponse.db - A database that contains the output of the ETL pipeline.
 
 
 2. Model
-  * train_classifier.py - A machine learning pipeline that loads data from the SQLite database, splits the dataset into training and test sets, builds a text processing and machine learning pipeline, trains and tunes a model using GridSearchCV, outputs results on the test set, and exports the final model as a pickle file.
-  * mlpipeline.pkl - A pickle file that contains the output of the machine learning pipeline.
+    * train_classifier.py - A machine learning pipeline that loads data from the SQLite database, splits the dataset into training and test sets, builds a text processing and machine learning pipeline, trains and tunes a model using GridSearchCV, outputs results on the test set, and exports the final model as a pickle file.
+    * mlpipeline.pkl - A pickle file that contains the output of the machine learning pipeline.
 
 
 3. App
-  * template:
-    - master.html - The main page of web app.
-    - go.html - The classification result page of web app.
-  * run.py - A flask file that runs app.
+    * template:
+      - master.html - The main page of web app.
+      - go.html - The classification result page of web app.
+    * run.py - A flask file that runs app.
 
 ## Author, Acknowledgement
-* Tosin Obisan
+* Oluwatosin (Tosin) Obisan
 * All credits to Udacity, and FigureEight for providing the data set for this project.
 
 ## Instructions:
@@ -52,4 +52,3 @@ This project contains three folders:
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
-
