@@ -32,7 +32,7 @@ This project contains three folders:
 
 
 3. App
-    * template:
+    * templates:
       - master.html - The main page of web app.
       - go.html - The classification result page of web app.
     * run.py - A flask file that runs app.
