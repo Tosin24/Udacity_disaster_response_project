@@ -1,4 +1,5 @@
 # Disaster Response Pipeline Project
+![image](https://user-images.githubusercontent.com/46941095/83839679-86d8d180-a6b1-11ea-9829-4fcc3c0aa987.png)
 
 ## Table of Contents
 1. Project Overview
@@ -25,7 +26,7 @@ This project contains three folders:
     * DisasterResponse.db - A database that contains the output of the ETL pipeline.
 
 
-2. Model
+2. Models
     * train_classifier.py - A machine learning pipeline that loads data from the SQLite database, splits the dataset into training and test sets, builds a text processing and machine learning pipeline, trains and tunes a model using GridSearchCV, outputs results on the test set, and exports the final model as a pickle file.
     * mlpipeline.pkl - A pickle file that contains the output of the machine learning pipeline.
 
